@@ -8,6 +8,7 @@ public class MainGUI : MonoBehaviour {
 	{
 		GUILayout.BeginHorizontal();
 		GUILayout.Label ("Hello world!");
+		GUILayout.Button ("Click me!");
 		GUILayout.EndHorizontal();
 	}
 }
